@@ -3,16 +3,14 @@
 namespace Omnipay\Epay;
 
 use Omnipay\Common\AbstractGateway;
-use Omnipay\Epay\Message\CompletePurchaseRequest;
-use Omnipay\Epay\Message\PurchaseRequest;
-use Omnipay\Epay\Message\CaptureRequest;
+
 
 /**
- * 2Checkout Gateway
+ * Eapay Gateway
  *
  * @link http://www.2checkout.com/documentation/Advanced_User_Guide.pdf
  */
-class EpayGateway extends AbstractGateway
+class Gateway extends AbstractGateway
 {
 
     public function getName()

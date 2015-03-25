@@ -3,11 +3,11 @@
 namespace Omnipay\Epay;
 
 /**
- * 2Checkout Gateway
+ * Easypay Gateway
  *
  * @link http://www.2checkout.com/documentation/Advanced_User_Guide.pdf
  */
-class EasypayGateway extends EpayGateway
+class EasypayGateway extends Gateway
 {
     public function getName()
     {
