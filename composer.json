@@ -1,0 +1,41 @@
+{
+    "name": "omnipay/epay",
+    "type": "library",
+    "description": "Epay gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "epay",
+        "easypay",
+        "purchase"
+    ],
+    "homepage": "https://github.com/thephpleague/omnipay-paypal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan kakurov",
+            "email": "ivan.kakurov@gmail.com"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/thephpleague/omnipay-paypal/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Epay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
