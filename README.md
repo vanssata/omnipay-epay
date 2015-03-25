@@ -3,7 +3,7 @@
 **Epay driver for the Omnipay PHP payment processing library**
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements PayPal support for Omnipay.
+processing library for PHP 5.3+. This package implements Epay, EasyPay Bpay and more Bugarian online payment providers support for Omnipay.
 
 ## Installation
 
@@ -13,7 +13,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        ...
+        //...
         "omnipay/epay": "1.2.*@dev",
     }
 }
@@ -33,7 +33,7 @@ For general usage instructions, please see the main [Omnipay](https://github.com
 repository.
 
 # BASIC USAGE 
-# SEND DATA TO GATEWAY 
+### SEND DATA TO GATEWAY 
 ```php
 use Omnipay\Omnipay;
 $method = Epay; # Or Easypay 
@@ -64,7 +64,7 @@ if ($response->isSuccessful()) {
     echo $response->getMessage();
 }
 ```
-## EPAY LISTENER 
+### EPAY LISTENER 
 * Listener for return payment status
 
 ```php
@@ -80,12 +80,6 @@ if ($response['invoice']) {
     }
 }
 ```
-
-## Support
-
-If you are having general issues with Omnipay, we suggest posting on
-[Stack Overflow](http://stackoverflow.com/). Be sure to add the
-[omnipay tag](http://stackoverflow.com/questions/tagged/omnipay) so it can be easily found.
 
 ## EPAY BG 
 [EPAY BG DOCUMENTATION](https://www.epay.bg/en/?page=front&p=demo)
