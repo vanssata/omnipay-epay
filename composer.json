@@ -1,18 +1,18 @@
 {
     "name": "omnipay/epay",
     "type": "library",
-    "description": "Epay gateway for Omnipay payment processing library",
+    "description": "Epay Bg gateway for Omnipay payment processing library",
     "keywords": [
         "gateway",
         "merchant",
         "omnipay",
         "pay",
         "payment",
-        "epay",
-        "easypay",
+        "epay bg",
+        "easypay bg",
         "purchase"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-paypal",
+    "homepage": "https://github.com/vanssata/omnipay-epay",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
         },
         {
             "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-paypal/contributors"
+            "homepage": "https://github.com/vanssata/omnipay-epay/contributors"
         }
     ],
     "autoload": {
