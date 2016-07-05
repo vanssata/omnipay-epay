@@ -44,6 +44,16 @@ class PurchaseRequest extends AbstractRequest
         return $this->setParameter('signature', $value);
     }
 
+    public function setReturnUrl($value)
+    {
+        return $this->setParameter('ReturnURL', $value);
+    }
+
+    public function setCancelUrl($value)
+    {
+        return $this->setParameter('CancelURL', $value);
+    }
+
     public function getData()
     {
 
