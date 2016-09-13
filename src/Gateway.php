@@ -42,12 +42,12 @@ class Gateway extends AbstractGateway
 
     public function setReturnUrl($value)
     {
-        return $this->setParameter('ReturnURL', $value);
+        return $this->setParameter('returnUrl', $value);
     }
 
     public function setCancelUrl($value)
     {
-        return $this->setParameter('CancelURL', $value);
+        return $this->setParameter('cancelUrl', $value);
     }
 
     public function getEncoded()
