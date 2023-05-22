@@ -53,7 +53,7 @@ class PurchaseEasyPayRequest extends  PurchaseRequest
     public function sendData($data)
     {
         $url = $this->setEndPoint().'?'.http_build_query($data);
-        $data['idn'] = $this->httpClient->get($url)->send()->getBody(true);
+        $data['idn'] = $this->httpClient->request('GET', $url)->getBody()->getContents();
         return $this->response = new PurchaseEasyPayResponse($this, $data);
     }
 }
